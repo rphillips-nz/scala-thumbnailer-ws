@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Scala Thumbnailer Web Service</title>
+		<link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+		<link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+	</head>
+	<body>
+		<h1>Scala Thumbnailer Web Service</h1>
+
+		<p>
+			<strong>POST</strong> /data
+			<ul>
+				<li>expects multipart/form-data with file</li>
+				<li>returns image/png</li>
+			</ul>
+		</p>
+
+		<p>
+			<strong>GET</strong> /url/:url
+			<ul>
+				<li>:url should be a URL encoded string</li>
+				<li>returns image/png</li>
+			</ul>
+		</p>
+
+	</body>
+</html>
