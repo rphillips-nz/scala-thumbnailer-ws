@@ -1,4 +1,3 @@
-scala-thumbnailer-ws
-====================
+# scala-thumbnailer-ws
 
-A simple web service around scala-thumbnailer
+Web service for scala-thumbnailer
